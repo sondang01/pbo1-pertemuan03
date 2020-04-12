@@ -10,6 +10,10 @@ public class OperasiString {
         String unsikaString = new String(unsikaChar);
         System.out.println(unsikaString);
 
+        System.out.println(kota.toUpperCase());
+        System.out.println(kota.toLowerCase());
+        System.out.println(kota.substring(5));
+        System.out.println(kota.substring(0,4));
 
     }
 }
