@@ -1,3 +1,5 @@
+package operator;
+
 public class OperatorBinary {
     //operator (=) sebagai assignment/penugasan
     //menempatkan nilai kedalam variabel
@@ -6,7 +8,5 @@ public class OperatorBinary {
     String nama = "Zam Sondang Fuadzi";
     int jumlahSks = 24;
     double indeksPrestasiKumulatif = 3.89;
-
-
 
 }
