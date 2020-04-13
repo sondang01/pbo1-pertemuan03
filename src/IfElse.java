@@ -7,8 +7,11 @@ public class IfElse {
 
         if(uangDiDompet<totalBelanja){
             System.out.println("Uang kurang, kurangi jajan anda");
+        }else if(uangDiDompet>totalBelanja) {
+            double kembalian = uangDiDompet - totalBelanja;
+            System.out.println("Uang cukup, kembalian : " + kembalian);
         }else{
-            System.out.println("Uang cukup, santuy");
+            System.out.println("Uang pas.. MaNaTuL..");
         }
     }
 }
